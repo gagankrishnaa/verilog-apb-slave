@@ -38,8 +38,11 @@ Full synthesis results and root-cause analysis: [SYNTHESIS.md](SYNTHESIS.md)
 - `apb_slave_schematic.png` — synthesized gate-level schematic
 - `VERIFICATION.md` — verification methodology and findings
 - `SYNTHESIS.md` — synthesis results and GLS findings
+- `sta/apb_slave_nangate45.v` — synthesis netlist mapped to Nangate45 standard cells
+- `sta/apb_sta.tcl` — OpenSTA timing constraints and analysis script
+- `STA.md` — static timing analysis methodology and results
 
 ## Status / next steps
 
 - Resolve the GLS-identified memory read-port timing mismatch
-- STA (OpenSTA) timing analysis
+- ~~STA (OpenSTA) timing analysis~~ — done, see STA.md
